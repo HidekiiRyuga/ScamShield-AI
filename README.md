@@ -6,133 +6,169 @@
 
 ---
 
-🌐 Live Demo: <link>
-
-🎥 Demo Video: <link>
-
-📄 Presentation: <link>
-
-
 ## 🚨 The Problem
 
-Digital scams are evolving faster than ever.
+Online scams are becoming increasingly sophisticated and difficult to distinguish from legitimate communications. Modern phishing attacks, banking fraud, fake job offers, delivery scams, impersonation attempts, and social engineering tactics are carefully crafted to appear trustworthy, often mimicking reputable organizations and services.
 
-Every day, millions of users receive:
-
-* Phishing messages
-* Fake banking notifications
-* Fraudulent job offers
-* Lottery scams
-* Delivery scams
-* Social engineering attacks
-
-Most people struggle to determine whether a message or screenshot is legitimate before it's too late.
-
-A single click can result in:
-
-* Financial loss
-* Identity theft
-* Account compromise
-* Data leakage
-
-ScamShield AI was built to help users identify threats before they become victims.
+As a result, users frequently struggle to determine whether a message, email, website, advertisement, or screenshot is genuine or malicious. This growing uncertainty leaves millions vulnerable to financial loss, identity theft, compromised accounts, and other forms of cybercrime.
 
 ---
 
 ## 💡 Our Solution
 
-ScamShield AI is an AI-powered cybersecurity assistant that analyzes suspicious messages and screenshots in real time.
+ScamShield AI is an AI-powered cybersecurity assistant designed to help users identify and understand online threats before they become victims.
 
-Users can:
-
-✅ Paste suspicious messages
-
-✅ Upload screenshots
-
-✅ Receive an instant threat assessment
-
-✅ Understand scam indicators
-
-✅ Get clear safety recommendations
-
-✅ View confidence scores and risk levels
+The platform analyzes suspicious text and screenshots, detects scam indicators, evaluates risk levels, generates multilingual explanations, and provides actionable recommendations to help users make safer decisions online.
 
 ---
 
-## ✨ Key Features
+## ✨ Features
 
-### 📝 Text-Based Scam Detection
+### 🔍 AI Scam Detection
 
 Analyze:
 
-* SMS messages
+* SMS Messages
 * Emails
-* WhatsApp chats
-* Social media messages
-* Job offers
-* Payment requests
+* WhatsApp Chats
+* Social Media Messages
+* Advertisements
+* Job Offers
+* Banking Communications
+* Payment Requests
+
+using advanced AI-powered threat analysis.
 
 ---
 
 ### 🖼️ Screenshot Analysis
 
-Upload screenshots and let AI:
+Upload screenshots of:
 
-* Extract visual context
-* Detect phishing attempts
-* Identify impersonation attacks
-* Analyze suspicious links
-* Flag social engineering tactics
+* Emails
+* Messages
+* Banking Alerts
+* Social Media Chats
+* Login Pages
+* Websites
 
----
-
-### 🌎 Multi-Language Support
-
-ScamShield AI automatically detects content language and generates:
-
-* Explanations
-* Recommendations
-* Threat assessments
-
-in the same language as the original content.
-
-Supported examples include:
-
-* English
-* Hindi
-* Japanese
-* Spanish
-* French
-* German
-* And many more
+and receive instant scam detection results.
 
 ---
 
-### 🎯 Threat Intelligence Engine
+### 🎙️ Speech-to-Text Input
 
-The platform evaluates:
-
-* Suspicious URLs
-* Credential theft attempts
-* OTP requests
-* Impersonation indicators
-* Pressure tactics
-* Social engineering patterns
-* Financial fraud signals
+Users can speak suspicious messages instead of typing manually using browser-based speech recognition.
 
 ---
 
-### 📊 AI Risk Scoring
+### 🌍 Multilingual Intelligence
 
-Every scan generates:
+ScamShield AI automatically:
+
+* Detects content language
+* Generates analysis in the same language
+* Provides localized recommendations
+* Supports global accessibility
+
+---
+
+### 📊 Advanced Risk Assessment
+
+Every scan includes:
 
 * Risk Score (0–100)
-* Risk Level
-* Confidence Score
+* Risk Level Classification
 * Threat Category
+* AI Confidence Score
+* Legitimacy Assessment
+
+---
+
+### 🚨 Threat Indicator Detection
+
+Detects common scam patterns including:
+
+* Phishing Attempts
+* Banking Fraud
+* Fake Job Offers
+* Lottery Scams
+* Delivery Scams
+* Credential Harvesting
+* Social Engineering
+* Impersonation Attacks
+* Suspicious URLs
+* Urgency & Pressure Tactics
+
+---
+
+### 🧠 Multi-Agent Security Pipeline
+
+ScamShield AI simulates specialized cybersecurity agents working together:
+
+#### 👁️ Vision Agent
+
+Extracts and interprets visual content.
+
+#### 🛡️ Threat Agent
+
+Identifies suspicious and malicious behavior.
+
+#### 🔍 Pattern Agent
+
+Compares content against known scam patterns.
+
+#### ⚠️ Risk Agent
+
+Calculates threat severity and confidence.
+
+#### 🛟 Safety Agent
+
+Generates actionable user recommendations.
+
+---
+
+### 👵 Explain Like I'm 60
+
+Cybersecurity terminology can be overwhelming.
+
+ScamShield AI converts technical threat analysis into plain-language explanations so anyone can understand the risks.
+
+---
+
+### 📄 Downloadable Threat Reports
+
+Generate professional PDF reports containing:
+
+* Threat Assessment
+* Risk Score
 * Threat Indicators
-* Detailed Explanation
-* Recommended Actions
+* Detailed Analysis
+* Recommendations
+* Scan Metadata
+
+---
+
+### 🧪 Demo Mode
+
+Built-in demo scenarios:
+
+* Banking Phishing Scam
+* Fake Job Offer
+* Lottery Scam
+* Delivery Scam
+
+Designed for demonstrations, testing, and hackathon judging.
+
+---
+
+### 🎨 Modern User Experience
+
+* Fully Responsive Design
+* Interactive Risk Visualizations
+* Animated Analysis Workflow
+* Modern Dark Theme
+* Smooth User Journey
 
 ---
 
@@ -140,14 +176,14 @@ Every scan generates:
 
 ```text
 Frontend (React + TypeScript)
-          │
-          ▼
+            │
+            ▼
 Backend API (Express + TypeScript)
-          │
-          ▼
+            │
+            ▼
  Gemini Threat Intelligence Engine
-          │
-          ▼
+            │
+            ▼
  Structured Security Analysis
 ```
 
@@ -155,55 +191,22 @@ Backend API (Express + TypeScript)
 
 ## 🔒 Security First Design
 
-Unlike many AI-powered applications that expose API credentials on the client side, ScamShield AI follows a secure architecture.
+Unlike many AI-powered applications that expose API credentials on the client side, ScamShield AI follows a secure backend-first architecture.
 
-### Security Measures Implemented
+### Security Features
 
-* Backend API architecture
-* Hidden Gemini API credentials
-* Express Rate Limiting
+* Backend-Protected Gemini API Integration
+* Environment Variable Security
+* Request Rate Limiting
 * File Size Validation
-* Prompt Injection Protection
-* CORS Configuration
-* Security Headers (Helmet)
 * Input Validation
+* Prompt Injection Protection
+* Secure Image Upload Handling
+* CORS Protection
+* Helmet Security Headers
+* Centralized Error Handling
 
-This ensures users cannot access sensitive API credentials through browser developer tools.
-
----
-
-## 🧠 AI Workflow
-
-### Vision Agent
-
-Extracts and interprets screenshot content.
-
-### Threat Agent
-
-Identifies scam indicators and suspicious behavior.
-
-### Pattern Agent
-
-Compares content against known scam patterns.
-
-### Risk Agent
-
-Calculates threat severity and confidence.
-
-### Safety Agent
-
-Generates actionable recommendations for users.
-
----
-
-## 🎮 Demo Scenarios Included
-
-* Banking Phishing Scam
-* Fake Job Offer
-* Delivery Scam
-* Lottery Scam
-
-These scenarios allow judges and users to quickly test the platform.
+These measures help protect both users and platform resources while ensuring AI credentials remain secure.
 
 ---
 
@@ -220,86 +223,87 @@ These scenarios allow judges and users to quickly test the platform.
 ### Backend
 
 * Node.js
-* Express
+* Express.js
 * TypeScript
+
+### AI & Machine Learning
+
+* Google Gemini 2.5 Flash
+* Gemini Vision
+
+### Security
+
 * Helmet
 * Express Rate Limit
+* Environment Variables
+* Secure Backend Routing
 
-### AI
+### Reporting
 
-* Google Gemini
+* jsPDF
 
----
+### Browser APIs
 
-## 🚀 Installation
-
-### Clone Repository
-
-```bash
-git clone <repository-url>
-cd ScamShieldAI
-```
-
-### Backend Setup
-
-```bash
-cd backend
-
-npm install
-```
-
-Create a `.env` file:
-
-```env
-PORT=5000
-GEMINI_API_KEY=YOUR_API_KEY
-FRONTEND_URL=http://localhost:5173
-```
-
-Run Backend:
-
-```bash
-npm run dev
-```
+* Web Speech API
 
 ---
 
-### Frontend Setup
+## 📋 Workflow
 
-```bash
-cd frontend
-
-npm install
-npm run dev
-```
-
----
-
-## 🎯 Future Scope
-
-* Real-time URL scanning
-* Browser extension
-* Email integration
-* Scam reporting network
-* Community threat intelligence database
-* Mobile application
-* Voice scam detection
-* Deepfake scam identification
+1. User enters text, speaks a message, or uploads a screenshot.
+2. Content is analyzed using AI-powered threat intelligence.
+3. Language is detected automatically.
+4. Threat indicators are extracted.
+5. Risk score and confidence levels are calculated.
+6. Detailed and simplified explanations are generated.
+7. Safety recommendations are provided.
+8. A downloadable PDF threat report can be generated.
 
 ---
 
-## 🌍 Impact
+## 🎯 Key Impact
 
-ScamShield AI aims to make cybersecurity accessible to everyone.
+ScamShield AI helps bridge the gap between advanced cybersecurity analysis and everyday users.
 
-By transforming complex scam analysis into clear, actionable guidance, the platform empowers users to recognize threats before they become victims.
+By transforming complex scam detection into clear, understandable guidance, the platform empowers individuals to recognize threats, avoid fraud, and stay safer online.
+
+---
+
+## 🔮 Future Roadmap
+
+* URL Reputation Analysis
+* Domain Age Verification
+* Email Header Analysis
+* Threat Intelligence Feeds
+* Multi-Model AI Failover
+* Browser Extension
+* Mobile Application
+* Voice Scam Detection
+* Deepfake Scam Detection
+* Advanced Threat Analytics Dashboard
+
+---
+
+## 🌐 Live
+
+[Deployment link](https://scam-shield-ai-gray.vercel.app/)
+
+---
+
+## 🎥 Demo Video
+
+Coming Soon
 
 ---
 
 ## 👨‍💻 Authors
 
-**Stuti**
+### Stuti
 
-**Nitin**
+### Nitin
 
-Built with a mission to make the digital world safer through AI-powered threat intelligence.
+---
+
+## 🏆 Built For
+
+Hackathons • Cybersecurity Awareness • Digital Safety • Fraud Prevention • AI-Powered Threat Intelligence
