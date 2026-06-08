@@ -2,7 +2,7 @@ import type { AnalysisResult }
 from "../context/AnalysisContext";
 
 const API_URL =
-  "http://localhost:5000/api/scan";
+   `${import.meta.env.VITE_API_URL}/api/scan`;
 
 export async function analyzeText(
   text: string

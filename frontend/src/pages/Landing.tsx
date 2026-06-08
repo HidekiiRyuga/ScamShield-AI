@@ -660,35 +660,3 @@ export default function Landing() {
   );
   
 }
-function ThreatBar({
-  title,
-  value,
-}: {
-  title: string;
-  value: number;
-}) {
-  return (
-    <div>
-
-      <div className="mb-2 flex justify-between text-sm">
-
-        <span>{title}</span>
-
-        <span>{value}%</span>
-
-      </div>
-
-      <div className="h-3 rounded-full bg-zinc-800">
-
-        <div
-          className="h-3 rounded-full bg-gradient-to-r from-violet-500 to-red-500"
-          style={{
-            width: `${value}%`,
-          }}
-        />
-
-      </div>
-
-    </div>
-  );
-}
