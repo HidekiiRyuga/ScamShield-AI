@@ -14,7 +14,7 @@ export default function Navbar() {
         </span>
 
         <span className="text-xs text-zinc-500">
-          Know scam. No scam.
+          Know scam No scam.
         </span>
       </Link>
 
