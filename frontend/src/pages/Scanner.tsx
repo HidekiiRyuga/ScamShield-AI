@@ -637,7 +637,7 @@ export default function Scanner() {
         <div className="flex flex-col items-center gap-2 text-center">
 
           <h3 className="text-lg font-semibold">
-            ScamShield AI
+            KnowScam AI
           </h3>
 
           <p className="text-sm text-zinc-500">

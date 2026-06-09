@@ -278,7 +278,7 @@ else {
       </h2>
 
       <p className="mt-4 text-zinc-400">
-        ScamShield AI analyzed the uploaded content using
+        KnowScam AI analyzed the uploaded content using
         Gemini Vision and multi-agent threat detection.
         <p className="mt-2 text-zinc-400">
       {result.riskScore <= 20
@@ -403,7 +403,7 @@ else {
           <div className="flex flex-col items-center gap-2 text-center">
 
             <h3 className="text-lg font-semibold">
-              ScamShield AI
+              KnowScam AI
             </h3>
 
             <p className="text-sm text-zinc-500">

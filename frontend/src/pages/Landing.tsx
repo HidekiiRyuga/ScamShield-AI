@@ -22,7 +22,7 @@ export default function Landing() {
 
         <p className="mt-8 max-w-xl text-lg text-zinc-400">
           Upload screenshots of suspicious messages, emails,
-          and chats. ScamShield AI uses Gemini Vision and
+          and chats. KnowScam AI uses Gemini Vision and
           multi-agent threat analysis to detect scams in seconds.
         </p>
 
@@ -267,7 +267,7 @@ export default function Landing() {
 
           </div>
 
-          <div className="mt-16 grid gap-6 md:grid-cols-3">
+          <div className="mt-16 grid gap-6 md:grid-cols-4">
 
             {/* Card 1 */}
 
@@ -325,6 +325,98 @@ export default function Landing() {
               </p>
 
             </div>
+
+            {/*card 4 and etc */}
+
+          <div className="rounded-2xl border border-zinc-800 bg-zinc-950 p-8 transition hover:border-green-500/50">
+            <div className="mb-6 text-green-400 text-2xl">
+              🌍
+            </div>
+
+            <h3 className="text-xl font-semibold">
+              Language Detection
+            </h3>
+
+            <p className="mt-3 text-zinc-500">
+              Automatically detects content language and
+              returns analysis in the same language.
+            </p>
+          </div>
+
+          <div className="rounded-2xl border border-zinc-800 bg-zinc-950 p-8 transition hover:border-yellow-500/50">
+            <div className="mb-6 text-yellow-400 text-2xl">
+              🎙️
+            </div>
+
+            <h3 className="text-xl font-semibold">
+              Speech-to-Text Input
+            </h3>
+
+            <p className="mt-3 text-zinc-500">
+              Speak suspicious messages directly instead
+              of typing them manually.
+            </p>
+          </div>
+
+          <div className="rounded-2xl border border-zinc-800 bg-zinc-950 p-8 transition hover:border-red-500/50">
+            <div className="mb-6 text-red-400 text-2xl">
+              🛡️
+            </div>
+
+            <h3 className="text-xl font-semibold">
+              Prompt Injection Protection
+            </h3>
+
+            <p className="mt-3 text-zinc-500">
+              Hardened AI prompts help prevent malicious
+              instructions from manipulating analysis.
+            </p>
+          </div>
+
+          <div className="rounded-2xl border border-zinc-800 bg-zinc-950 p-8 transition hover:border-orange-500/50">
+            <div className="mb-6 text-orange-400 text-2xl">
+              🚫
+            </div>
+
+            <h3 className="text-xl font-semibold">
+              Relevance Detection
+            </h3>
+
+            <p className="mt-3 text-zinc-500">
+              Identifies and rejects unrelated content,
+              ensuring analysis focuses only on scam-related material.
+            </p>
+          </div>
+
+          <div className="rounded-2xl border border-zinc-800 bg-zinc-950 p-8 transition hover:border-pink-500/50">
+            <div className="mb-6 text-pink-400 text-2xl">
+              📄
+            </div>
+
+            <h3 className="text-xl font-semibold">
+              Downloadable Reports
+            </h3>
+
+            <p className="mt-3 text-zinc-500">
+              Export professional threat reports with
+              risk scores, indicators, and recommendations.
+            </p>
+          </div>
+
+          <div className="rounded-2xl border border-zinc-800 bg-zinc-950 p-8 transition hover:border-emerald-500/50">
+            <div className="mb-6 text-emerald-400 text-2xl">
+              🔒
+            </div>
+
+            <h3 className="text-xl font-semibold">
+              Privacy First
+            </h3>
+
+            <p className="mt-3 text-zinc-500">
+              No accounts, no data storage, and no sharing
+              of user-submitted content.
+            </p>
+          </div>
 
           </div>
         </div>
@@ -465,7 +557,7 @@ export default function Landing() {
             </h2>
 
             <p className="mt-4 text-zinc-500">
-              Everything you need to know about ScamShield AI.
+              Everything you need to know about KnowScam AI.
             </p>
 
           </div>
@@ -475,11 +567,11 @@ export default function Landing() {
             <div className="rounded-2xl border border-zinc-800 bg-zinc-950 p-6">
 
               <h3 className="font-semibold">
-                How does ScamShield detect scams?
+                How does KnowScam detect scams?
               </h3>
 
               <p className="mt-3 text-zinc-500">
-                ScamShield analyzes screenshots and messages
+                KnowScam analyzes screenshots and messages
                 for phishing attempts, impersonation tactics,
                 suspicious links, and social engineering patterns.
               </p>
@@ -493,7 +585,7 @@ export default function Landing() {
               </h3>
 
               <p className="mt-3 text-zinc-500">
-                No. ScamShield explains risks in simple,
+                No. KnowScam explains risks in simple,
                 human-friendly language anyone can understand.
               </p>
 
@@ -531,7 +623,7 @@ export default function Landing() {
 
             <p className="mx-auto mt-6 max-w-2xl text-zinc-400">
               Upload suspicious screenshots and let
-              ScamShield AI help you stay one step ahead
+              KnowScam AI help you stay one step ahead
               of scammers.
             </p>
 
@@ -632,6 +724,22 @@ export default function Landing() {
         </section>
         
       </section>
+      <div className="mx-auto mb-12 w-full max-w-6xl">
+    <div className="rounded-2xl border border-zinc-800 bg-zinc-950/50 p-5 text-center">
+
+      <h3 className="text-sm font-medium text-zinc-300">
+        🔒 Privacy First
+      </h3>
+
+      <p className="mt-2 text-sm text-zinc-500">
+        KnowScam AI does not store, sell, or share your messages,
+        screenshots, or personal information. Submitted content is
+        analyzed solely for scam detection and is not retained after
+        processing.
+      </p>
+
+    </div>
+  </div>
       <footer className="border-t border-zinc-800 py-6">
 
   <div className="mx-auto max-w-7xl px-8">
@@ -639,7 +747,7 @@ export default function Landing() {
     <div className="flex flex-col items-center gap-2 text-center">
 
       <h3 className="text-lg font-semibold">
-        ScamShield AI
+        KnowScam AI
       </h3>
 
       <p className="text-sm text-zinc-500">

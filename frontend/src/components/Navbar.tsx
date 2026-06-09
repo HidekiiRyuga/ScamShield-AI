@@ -5,12 +5,18 @@ export default function Navbar() {
   return (
    <nav className="border-b border-zinc-900">
   <div className="flex items-center justify-between px-10 py-5">
-        <Link
-          to="/"
-          className="text-lg font-semibold tracking-wide"
-        >
-          ScamShield AI
-        </Link>
+            <Link
+        to="/"
+        className="flex flex-col items-start"
+      >
+        <span className="text-lg font-semibold tracking-wide">
+          KnowScam AI
+        </span>
+
+        <span className="text-xs text-zinc-500">
+          Know scam. No scam.
+        </span>
+      </Link>
 
         <div className="flex items-center gap-8 text-sm text-zinc-400">
           <HashLink smooth to="/#home">Home</HashLink>

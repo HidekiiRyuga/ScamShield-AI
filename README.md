@@ -1,4 +1,4 @@
-# 🛡️ ScamShield AI
+# 🛡️ KnowScam AI
 
 ### AI-Powered Scam Detection & Threat Intelligence Platform
 
@@ -16,7 +16,7 @@ As a result, users frequently struggle to determine whether a message, email, we
 
 ## 💡 Our Solution
 
-ScamShield AI is an AI-powered cybersecurity assistant designed to help users identify and understand online threats before they become victims.
+KnowScam AI is an AI-powered cybersecurity assistant designed to help users identify and understand online threats before they become victims.
 
 The platform analyzes suspicious text and screenshots, detects scam indicators, evaluates risk levels, generates multilingual explanations, and provides actionable recommendations to help users make safer decisions online.
 
@@ -64,7 +64,7 @@ Users can speak suspicious messages instead of typing manually using browser-bas
 
 ### 🌍 Multilingual Intelligence
 
-ScamShield AI automatically:
+KnowScam AI automatically:
 
 * Detects content language
 * Generates analysis in the same language
@@ -104,7 +104,7 @@ Detects common scam patterns including:
 
 ### 🧠 Multi-Agent Security Pipeline
 
-ScamShield AI simulates specialized cybersecurity agents working together:
+KnowScam AI simulates specialized cybersecurity agents working together:
 
 #### 👁️ Vision Agent
 
@@ -132,7 +132,7 @@ Generates actionable user recommendations.
 
 Cybersecurity terminology can be overwhelming.
 
-ScamShield AI converts technical threat analysis into plain-language explanations so anyone can understand the risks.
+KnowScam AI converts technical threat analysis into plain-language explanations so anyone can understand the risks.
 
 ---
 
@@ -191,7 +191,7 @@ Backend API (Express + TypeScript)
 
 ## 🔒 Security First Design
 
-Unlike many AI-powered applications that expose API credentials on the client side, ScamShield AI follows a secure backend-first architecture.
+Unlike many AI-powered applications that expose API credentials on the client side, KnowScam AI follows a secure backend-first architecture.
 
 ### Security Features
 
@@ -263,7 +263,7 @@ These measures help protect both users and platform resources while ensuring AI 
 
 ## 🎯 Key Impact
 
-ScamShield AI helps bridge the gap between advanced cybersecurity analysis and everyday users.
+KnowScam AI helps bridge the gap between advanced cybersecurity analysis and everyday users.
 
 By transforming complex scam detection into clear, understandable guidance, the platform empowers individuals to recognize threats, avoid fraud, and stay safer online.
 
