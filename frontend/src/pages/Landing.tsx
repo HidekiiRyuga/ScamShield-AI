@@ -36,7 +36,7 @@ export default function Landing() {
           </Link>
 
                  <a
-  href="https://youtu.be/-pKjUNppt-s"
+  href="https://www.youtube.com/watch?v=FsCGMk8znxo"
   target="_blank"
   rel="noopener noreferrer"
   className="inline-block cursor-pointer rounded-lg border border-zinc-700 px-6 py-3 transition hover:border-zinc-500"
